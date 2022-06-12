@@ -1,0 +1,25 @@
+.balances-info {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 3.8fr 1fr;
+    grid-template-areas: "title logo" "total_amount logo";
+    height: 4rem;
+    width: 19rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color-soft-red);
+    color: var(--neutral-color-cream);
+    font-weight: var(--font-weight-1);
+    border-radius: 10px;
+}
+
+.title {
+    grid-area: title;
+}
+
+.amount-total {
+    grid-area: total_amount;
+    font-weight: var(--font-weight-2);
+    font-size: 1.5rem;
+}

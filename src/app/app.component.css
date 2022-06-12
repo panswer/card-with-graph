@@ -1,0 +1,6 @@
+.content {
+    background-color: var(--background-color);
+    font-family: "DM Sans", 'Courier New', Courier, monospace;
+    width: 100vw;
+    height: 100vh;
+}
